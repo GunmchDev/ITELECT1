@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Kingdom</title>
+    <style>
+      .container-fluid{
+        background-color: rgb(255, 78, 14);
+      }
+      #button{
+        background-color: rgb(255, 78, 14);
+        border: none;
+        align-items: center;
+        justify-content: center;
+      }
+      .product{
+        margin: 20px;
+        display: flex;
+        gap: 30px;
+      }
+      .search{
+        background-color: rgb(69, 69, 178);
+        border: white;
+      }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="up">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <img src="TK-logo_2_b057d49a-a95c-4928-b824-e87a6de3d117_195x@2x.webp" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <form class="d-flex" role="search" class="cons">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" class="search">Search</button>
+              </form>
+            </div>
+          </nav>
+    </div>
+    <nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Boys
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action Figures</a></li>
+                  <li><a class="dropdown-item" href="#">Vehicles</a></li>
+                  <li><a class="dropdown-item" href="#">Combat Weapons</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Girls
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Dolls</a></li>
+                  <li><a class="dropdown-item" href="#">Plush Toys</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Learnings
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blocks and Puzzles</a></li>
+                  <li><a class="dropdown-item" href="#">STEM Toys</a></li>
+                  <li><a class="dropdown-item" href="#">Reading and Writing Toys</a></li>
+                  <li><a class="dropdown-item" href="#">Electronic Learning Toys</a></li>
+                </ul>
+              </li>
+            </ul><ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Games
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Console</a></li>
+                  <li><a class="dropdown-item" href="#">Indoor Games</a></li>
+                  <li><a class="dropdown-item" href="#">Arts & Craft</a></li>
+                  <li><a class="dropdown-item" href="#">Musical Toys</a></li>
+                </ul>
+              </li>
+            </ul><ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dress Up
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Costumes</a></li>
+                  <li><a class="dropdown-item" href="#">Career Toys</a></li>
+                  <li><a class="dropdown-item" href="#">Fashion</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </nav>
+    <main>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Banner-PC_67e8bcd4-38c4-4452-aded-297aedfb4cf2_1800x.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="WEB_BANNER_PROMO-2_1800x.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="WEB_BANNER_PROMO_1800x.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>
+    <main class="product">
+      <div class="card" style="width: 18rem;">
+        <img src="39004075_1_300x.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Play-Doh Classic 4 Pack Assorted Color </h5>
+          <p class="card-text">Price ₱159.20</p>
+          <br>
+          <a href="#" class="btn btn-primary" id="button">Add to Cart</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="39031128_3_300x.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hot Wheels Basic Car</h5>
+          <p class="card-text">Price ₱116.10</p>
+          <br>
+          <br>
+          <a href="#" class="btn btn-primary" id="button">Add to Cart</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+          <img src="TK-39026526-C1009-6922-_PKT_-MAIN_500x.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hasbro Gaming Monopoly UK Version Classic Board Game</h5>
+            <p class="card-text">Price ₱899.10</p>
+            <a href="#" class="btn btn-primary" id="button">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="E4869AX11_3_500x.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Play-Doh Sweet 4 Pack Clay Set</h5>
+            <p class="card-text">Price ₱159.20</p>
+            <br>
+            <a href="#" class="btn btn-primary" id="button">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="B6508AX10_2_500x.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Play-Doh Classic Colors 4 Pack Clay Set</h5>
+            <p class="card-text">Price ₱159.20</p>
+            <br>
+            <a href="#" class="btn btn-primary" id="button">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="TK-38142471-Vtech-Baby-My-1st-Smart-Phone-2_500x (1).webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">VTech Baby My 1st Smart Phone</h5>
+            <p class="card-text">Price ₱1,169.10</p>
+            <br>
+            <a href="#" class="btn btn-primary" id="button">Add to Cart</a>
+          </div>
+        </div>
+    </main>
+    <section>
+      <div class="container text-center">
+        <div class="row align-items-end">
+          <div class="col">
+            Shop Toys Online
+          </div>
+          <div class="col">
+            Get In Touch With Us
+          </div>
+          <div class="col">
+            Online Toy Store In PH | Toy Kingdom Online
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Who is the owner of Toy Kingdom Philippines?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">the SM Group
+              International Toyworld Inc., doing business as Toy Kingdom, is a large toy store chain owned and developed by the SM Group by the late Chinese Filipino taipan, Henry Sy, Sr.. It features a variety of toys, gizmos & gadgets. The first branch opened at SM Megamall in 1991.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Why was it called a Toy Kingdom?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Boasting one of the most impressive selections of toys in the southern hemisphere under one roof, Toy Kingdom has since welcomed some of Hollywood's most celebrated, and South Africa's most decorated, and become Africa's most loved toy store.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              What is the meaning of the Toy Kingdom?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Explanation: In the short story 'Too Dear' by John Galsworthy, the toy kingdom is depicted as a magical and enchanting place where toys come to life. It serves as a representation of childhood innocence and the joy of play.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
