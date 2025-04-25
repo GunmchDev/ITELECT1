@@ -1,0 +1,50 @@
+Aqua → #00FFFF
+Azure → #007FFF
+Beige → #F5F5DC
+Black → #000000
+Blue → #0000FF
+Bronze → #CD7F32
+Brown → #A52A2A
+Burgundy → #800020
+Charcoal → #36454F
+Coral → #FF7F50
+Crimson → #DC143C
+Cyan → #00FFFF
+Dark Blue → #00008B
+Dark Cyan → #008B8B
+Dark Gray → #A9A9A9
+Dark Green → #006400
+Dark Magenta → 
+Dark Orange → #FF8C00
+Dark Purple → #301934
+Dark Red → #8B0000
+Deep Pink → #FF1493
+Deep Sky Blue → #00BFFF
+Emerald → #50C878
+Forest Green → #228B22
+Fuchsia → #FF00FF
+Gold → #FFD700
+Goldenrod → #DAA520
+Gray → #808080
+Green → #008000
+Hot Pink → #FF69B4
+Indigo → #4B0082
+Ivory → #FFFFF0
+Khaki → #F0E68C
+Lavender → #E6E6FA
+Light Blue → #ADD8E6
+Light Gray → #D3D3D3
+Light Green → #90EE90
+Lime → #00FF00
+Magenta → #FF00FF
+Maroon → #800000
+Midnight Blue → #191970
+Mint Green → #98FB98
+Navy Blue → #000080
+Olive → #808000
+Orange → #FFA500
+Orchid → #DA70D6
+Peach → #FFE5B4
+Peru → #CD853F
+Plum → #DDA0DD
+Red → #FF0000

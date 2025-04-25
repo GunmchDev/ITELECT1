@@ -1,0 +1,17 @@
+Serif Fonts:
+Times New Roman
+Georgia
+Garamond
+
+Sans-serif Fonts:
+Arial
+Helvetica
+Roboto
+Open Sans
+
+Monospace Fonts:
+Courier New
+Consolas
+
+Display Fonts:
+Impact
